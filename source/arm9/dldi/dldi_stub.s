@@ -30,7 +30,7 @@
 	.global _io_dldi_stub
 @---------------------------------------------------------------------------------
 
-.equ DLDI_ALLOCATED_SPACE,		16384
+.equ DLDI_ALLOCATED_SPACE,		32768
 
 _io_dldi_stub:
 
