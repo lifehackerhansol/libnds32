@@ -29,10 +29,10 @@ LIBDIRS		:=
 # ---------------
 
 ifeq ($(DEBUG),1)
-NAME		:= libnds9d
+NAME		:= libnds329d
 BUILDDIR	:= build/debug/arm9
 else
-NAME		:= libnds9
+NAME		:= libnds329
 BUILDDIR	:= build/release/arm9
 endif
 
